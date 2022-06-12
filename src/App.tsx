@@ -1,7 +1,18 @@
 import React from 'react';
+import Header from './components/Header';
+import LeftPanel from './components/LeftPanel';
+import NoteContent from './components/NoteContent';
 
-function App() {
-  return <h1 className='text-4xl font-bold text-lightOrange text-center my-5'>NoteMaster</h1>;
-}
+const App = () => {
+  return (
+    <>
+      <Header />
+      <div className='container grid grid-cols-main grid-rows-main mx-auto'>
+        <LeftPanel />
+        <NoteContent />
+      </div>
+    </>
+  );
+};
 
 export default App;

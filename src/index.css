@@ -7,6 +7,11 @@
   font-family: 'Roboto', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300;500&display=swap');
-h1 {
+
+body {
+  @apply bg-darkGrey;
+}
+
+header {
   font-family: 'Poppins', sans-serif;
 }
